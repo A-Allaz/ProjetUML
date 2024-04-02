@@ -1,24 +1,5 @@
 # Ananlysis of security risks
 
-## Objectifs de la sécurité
-
-| Objectif        | Description                                                  |
-| --------------- | ------------------------------------------------------------ |
-| Confidentialité | - Protection des données personnelles des utilisateurs, y compris les informations d'identification, les données de localisation, les données de santé, etc. |
-|                 | - Chiffrement des données sensibles lors de leur transmission sur le réseau. |
-|                 | - Contrôle d'accès strict pour garantir que seuls les utilisateurs autorisés peuvent accéder aux données confidentielles. |
-|                 | - Gestion sécurisée des identités et des informations d'authentification. |
-| Intégrité       | - Vérification de l'exactitude et de la cohérence des données à chaque étape du processus, y compris la collecte, le stockage et l'analyse. - Utilisation de mécanismes de hachage pour garantir l'intégrité des données stockées. |
-|                 | - Mise en œuvre de contrôles d'intégrité pour détecter les erreurs de transmission ou les corruptions de données. |
-|                 | - Sauvegarde régulière des données pour prévenir la perte de données. |
-| Disponibilité   | - Mise en place d'une architecture robuste et redondante pour garantir une disponibilité élevée de l'application. |
-|                 | - Surveillance proactive des performances et des temps de réponse. |
-|                 | - Répartition de charge pour équilibrer la charge sur les serveurs et éviter les surcharges. |
-|                 | - Planification régulière de la maintenance et des mises à jour. |
-
-
-### Analyse de l'application
-
 | Système                       | Atout                                                        | Vulnérabilité                                                | Attaque                                                 | Risque                                                       | Niveau d’impact | Contre-mesure                                                |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ |
 | Collecte de données           | Large couverture des capteurs sur une grande zone            | Manque de chiffrement pendant la transmission des données    | Attaque de l'homme du milieu                            | Accès non autorisé aux données des capteurs                  | Élevé           | Implémenter des protocoles de chiffrement pour la transmission des données |
