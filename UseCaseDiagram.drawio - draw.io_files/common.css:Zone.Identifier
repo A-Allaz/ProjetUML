@@ -1,4 +1,3 @@
 [ZoneTransfer]
 ZoneId=3
-ReferrerUrl=https://app.diagrams.net/
-HostUrl=https://app.diagrams.net/mxgraph/css/common.css
+HostUrl=file:///D:/Adam/INSA/3IF/UML/Project/UseCaseDiagram.drawio%20-%20draw.io_files/common.css
